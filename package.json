@@ -1,0 +1,16 @@
+{
+  "name": "haze-lens",
+  "version": "0.2.0",
+  "private": true,
+  "type": "module",
+  "description": "Dated haze evidence and Singapore air-quality scenes for God's Eye View",
+  "scripts": {
+    "build": "node build.mjs",
+    "check": "node check.mjs",
+    "refresh": "node refresh.mjs && node build.mjs && node check.mjs"
+  },
+  "engines": {
+    "node": ">=24.14.0 <25 || >=26 <27"
+  }
+}
+

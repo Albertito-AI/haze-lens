@@ -1,0 +1,10 @@
+{
+  "repository": "https://github.com/bilawalsidhu/gods-eye-view",
+  "commit": "3d25a284f9186dcc936c26e0c4f745337b402e37",
+  "reviewed_on": "2026-11-15",
+  "scene_document_version": 6,
+  "bundle_version": 1,
+  "vendored_files": "Only portable validators and bundle helpers under vendor/gods-eye-view are reproduced. See their retained LICENSE.",
+  "validation_scope": "Document, geometry, action references, bundle integrity and export/import round-trip. Full application UI and live feeds have not been run."
+}
+

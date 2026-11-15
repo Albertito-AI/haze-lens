@@ -1,0 +1,73 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "regional",
+      "properties": {
+        "name": "01 | ASEAN: frame the research question",
+        "role": "Approximate research viewpoint; not an observation",
+        "height_note": "Artificial display height"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          104,
+          9,
+          5000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sumatra",
+      "properties": {
+        "name": "02 | Riau, Sumatra: inspect an environmental signal",
+        "role": "Approximate research viewpoint; not an observation",
+        "height_note": "Artificial display height"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          101.45,
+          0.5,
+          5000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "singapore",
+      "properties": {
+        "name": "03 | Singapore: record impacts and institutional acts",
+        "role": "Approximate research viewpoint; not an observation",
+        "height_note": "Artificial display height"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82,
+          1.3,
+          5000
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "chiang-mai",
+      "properties": {
+        "name": "04 | Northern Thailand: construct a separate comparison",
+        "role": "Approximate research viewpoint; not an observation",
+        "height_note": "Artificial display height"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          98.99,
+          18.79,
+          5000
+        ]
+      }
+    }
+  ]
+}

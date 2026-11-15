@@ -1,0 +1,86 @@
+{
+  "format": "asean-haze-research-ledger",
+  "version": 1,
+  "status": "Empty research template. No environmental observations, institutional events or legal findings have been entered.",
+  "observations": [],
+  "institutional_events": [],
+  "legal_assessments": [],
+  "comparisons": [],
+  "field_guide": {
+    "observations": [
+      "id",
+      "episode_id",
+      "source_url",
+      "source_pinpoint",
+      "source_file_sha256",
+      "observed_at",
+      "published_at",
+      "retrieved_at",
+      "timezone",
+      "location_or_area",
+      "location_precision",
+      "instrument_or_station",
+      "product_version",
+      "metric",
+      "value",
+      "unit",
+      "averaging_period",
+      "quality_flags",
+      "missing_data_reason",
+      "verified_by"
+    ],
+    "institutional_events": [
+      "id",
+      "episode_id",
+      "jurisdiction",
+      "institution",
+      "event_type",
+      "event_occurred_at",
+      "published_at",
+      "retrieved_at",
+      "source_url",
+      "source_pinpoint",
+      "source_file_sha256",
+      "description",
+      "verified_by"
+    ],
+    "legal_assessments": [
+      "id",
+      "episode_id",
+      "instrument_title",
+      "authoritative_text_url",
+      "section_or_paragraph",
+      "version_effective_on_event_date",
+      "duty_holder",
+      "trigger_and_evidence",
+      "deadline_or_standard",
+      "jurisdictional_basis",
+      "interpretation",
+      "counterargument",
+      "uncertainty",
+      "review_status"
+    ],
+    "comparisons": [
+      "id",
+      "episode_id",
+      "start_event_id",
+      "end_event_id",
+      "elapsed_time",
+      "unit",
+      "clock_basis",
+      "date_precision",
+      "whether_dates_are_observed_or_estimated",
+      "legal_relevance",
+      "limitations"
+    ]
+  },
+  "rules": [
+    "Keep observation, publication and retrieval times distinct; use ISO 8601 with a timezone offset where time is known.",
+    "Record unknown or unavailable values explicitly; absence of a record does not establish that an institution took no action.",
+    "Calculate a time interval only after its start, endpoint and date precision are defined. An elapsed interval is not itself unlawful delay.",
+    "Keep environmental detection, source attribution, causal analysis and the legal assessment separately supported.",
+    "Do not compare air-quality indices as if their scales and averaging periods were interchangeable.",
+    "Preserve primary source versions and pinpoint references; do not assign a publication date as an observation date."
+  ]
+}
+

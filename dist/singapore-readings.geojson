@@ -1,0 +1,110 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "id": "sg-north",
+      "properties": {
+        "name": "North",
+        "location_role": "Provider regional label location, not a monitoring station",
+        "pm25_one_hourly": 12,
+        "psi_twenty_four_hourly": 38,
+        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
+        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82,
+          1.41803,
+          1200
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sg-south",
+      "properties": {
+        "name": "South",
+        "location_role": "Provider regional label location, not a monitoring station",
+        "pm25_one_hourly": 14,
+        "psi_twenty_four_hourly": 38,
+        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
+        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82,
+          1.29587,
+          1200
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sg-east",
+      "properties": {
+        "name": "East",
+        "location_role": "Provider regional label location, not a monitoring station",
+        "pm25_one_hourly": 11,
+        "psi_twenty_four_hourly": 40,
+        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
+        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.94,
+          1.35735,
+          1200
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sg-west",
+      "properties": {
+        "name": "West",
+        "location_role": "Provider regional label location, not a monitoring station",
+        "pm25_one_hourly": 24,
+        "psi_twenty_four_hourly": 41,
+        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
+        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.7,
+          1.35735,
+          1200
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "id": "sg-central",
+      "properties": {
+        "name": "Central",
+        "location_role": "Provider regional label location, not a monitoring station",
+        "pm25_one_hourly": 16,
+        "psi_twenty_four_hourly": 39,
+        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
+        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          103.82,
+          1.35735,
+          1200
+        ]
+      }
+    }
+  ]
+}

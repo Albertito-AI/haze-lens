@@ -1,0 +1,46 @@
+[
+  {
+    "id": "regional",
+    "title": "01 | ASEAN: frame the research question",
+    "lat": 9,
+    "lon": 104,
+    "alt": 3500000,
+    "featureLat": 9,
+    "featureLon": 104,
+    "source": "asmc-regional",
+    "text": "Research orientation only. These markers are approximate camera centres, not observations, administrative boundaries or alleged sources of pollution. Compare maritime and mainland episodes separately. Ask when an environmental signal became available, what an institution demonstrably knew, which legal duty applied, and what it did. The linked regional product provides observational and model context; it does not establish legal responsibility."
+  },
+  {
+    "id": "sumatra",
+    "title": "02 | Riau, Sumatra: inspect an environmental signal",
+    "lat": 0.5,
+    "lon": 101.45,
+    "alt": 650000,
+    "featureLat": 0.5,
+    "featureLon": 101.45,
+    "source": "firms",
+    "text": "Approximate research viewpoint near Pekanbaru, Riau. This marker is not a fire detection. Use the NASA source to choose a dated episode and record its instrument, acquisition time, product version and quality flags. Establish the meaning and limitations of the selected detection product before drawing an inference. A marker or spatial overlap alone does not establish an operator, breach, causation or liability."
+  },
+  {
+    "id": "singapore",
+    "title": "03 | Singapore: record impacts and institutional acts",
+    "lat": 1.3,
+    "lon": 103.82,
+    "alt": 180000,
+    "featureLat": 1.3,
+    "featureLon": 103.82,
+    "source": "nea",
+    "text": "Approximate Singapore research viewpoint, not a monitoring station. The linked portal separates 1-hour PM2.5 and 24-hour PSI; preserve the metric, unit and averaging period. Record each institutional act in a separate dated record with a primary source and pinpoint. Distinguish an advisory, investigation, formal notice, proceeding and sanction. This research viewpoint asserts no enforcement event. The separate Singapore scene contains dated measurement snapshots."
+  },
+  {
+    "id": "chiang-mai",
+    "title": "04 | Northern Thailand: construct a separate comparison",
+    "lat": 18.79,
+    "lon": 98.99,
+    "alt": 280000,
+    "featureLat": 18.79,
+    "featureLon": 98.99,
+    "source": "asmc-alerts",
+    "text": "Approximate Chiang Mai research viewpoint. Treat this as a separate mainland comparison, not a continuation of a Sumatra-to-Singapore causal chain. Start with dated ASMC advisories relevant to the Mekong sub-region, then corroborate the chosen episode with Thai primary records. Verify any Thai instrument in its authoritative text, its effective date, the competent institution and the operative duty. Thai station data and legal instruments have not yet been incorporated."
+  }
+]

@@ -1,0 +1,499 @@
+{
+  "format": "gev-scene-bundle",
+  "version": 1,
+  "project": {
+    "version": 6,
+    "createdAt": "2026-11-15T12:49:45.465Z",
+    "scenes": [
+      {
+        "id": "singapore-air-quality-snapshot",
+        "title": "Singapore air quality | Snapshot 2026-11-15T20:00:00+08:00",
+        "dataPacks": [
+          {
+            "id": "singapore-readings",
+            "version": 1,
+            "format": "geojson",
+            "source": {
+              "adapter": "scene-bundle",
+              "path": "files/0-singapore-readings.geojson"
+            },
+            "attribution": {
+              "text": "Contains NEA PM2.5 and PSI information and regional label locations from data.gov.sg, accessed 15 November 2026 for the initial snapshot. Each card records observation and capture times. Independent prototype; no agency endorsement.",
+              "license": "Singapore Open Data Licence version 1.0. https://data.gov.sg/open-data-licence",
+              "url": "https://data.gov.sg/open-data-licence"
+            },
+            "placement": {
+              "altitudeReference": "ellipsoid"
+            },
+            "byteLength": 3143,
+            "sha256": "e0ec7f9843c43478ebd825a43c3d00e6341655778c231e5c140c14ed9f4a5f6e"
+          }
+        ],
+        "shots": [
+          {
+            "id": "sg-overview",
+            "title": "01 | Five regions: click a pin to inspect dated readings",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 1.35735,
+              "lon": 103.82,
+              "alt": 125000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "singapore-readings"
+            ],
+            "interactions": [
+              {
+                "id": "sg-north-readings",
+                "label": "North readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-north"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "North Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 12 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 38 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              },
+              {
+                "id": "sg-south-readings",
+                "label": "South readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-south"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "South Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 14 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 38 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              },
+              {
+                "id": "sg-east-readings",
+                "label": "East readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-east"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "East Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 11 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 40 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              },
+              {
+                "id": "sg-west-readings",
+                "label": "West readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-west"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "West Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 24 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 41 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              },
+              {
+                "id": "sg-central-readings",
+                "label": "Central readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-central"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "Central Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 16 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 39 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "sg-north",
+            "title": "North | PM2.5 12 | PSI 38 | snapshot",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 1.41803,
+              "lon": 103.82,
+              "alt": 22000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "singapore-readings"
+            ],
+            "interactions": [
+              {
+                "id": "sg-north-readings",
+                "label": "North readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-north"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "North Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 12 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 38 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "sg-south",
+            "title": "South | PM2.5 14 | PSI 38 | snapshot",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 1.29587,
+              "lon": 103.82,
+              "alt": 22000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "singapore-readings"
+            ],
+            "interactions": [
+              {
+                "id": "sg-south-readings",
+                "label": "South readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-south"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "South Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 14 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 38 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "sg-east",
+            "title": "East | PM2.5 11 | PSI 40 | snapshot",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 1.35735,
+              "lon": 103.94,
+              "alt": 22000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "singapore-readings"
+            ],
+            "interactions": [
+              {
+                "id": "sg-east-readings",
+                "label": "East readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-east"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "East Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 11 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 40 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "sg-west",
+            "title": "West | PM2.5 24 | PSI 41 | snapshot",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 1.35735,
+              "lon": 103.7,
+              "alt": 22000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "singapore-readings"
+            ],
+            "interactions": [
+              {
+                "id": "sg-west-readings",
+                "label": "West readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-west"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "West Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 24 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 41 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "sg-central",
+            "title": "Central | PM2.5 16 | PSI 39 | snapshot",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 1.35735,
+              "lon": 103.82,
+              "alt": 22000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "singapore-readings"
+            ],
+            "interactions": [
+              {
+                "id": "sg-central-readings",
+                "label": "Central readings and official source",
+                "target": {
+                  "packId": "singapore-readings",
+                  "featureId": "sg-central"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "Central Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 16 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 39 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": "asean-haze-research-starter",
+        "title": "ASEAN haze | Evidence and response research",
+        "dataPacks": [
+          {
+            "id": "research-viewpoints",
+            "version": 1,
+            "format": "geojson",
+            "source": {
+              "adapter": "scene-bundle",
+              "path": "files/1-research-viewpoints.geojson"
+            },
+            "attribution": {
+              "text": "Authored research viewpoints and notes prepared for Albert Tan. External links identify official sources; no third-party imagery or fire detections are included in this pack.",
+              "license": "Research prototype for personal research and teaching. Linked material retains its own terms."
+            },
+            "placement": {
+              "altitudeReference": "ellipsoid"
+            },
+            "byteLength": 1730,
+            "sha256": "2857dcebe33e31face249b9da6214ba72c352f53af7571040b2140957cc83fbb"
+          }
+        ],
+        "shots": [
+          {
+            "id": "regional",
+            "title": "01 | ASEAN: frame the research question",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 9,
+              "lon": 104,
+              "alt": 3500000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "research-viewpoints"
+            ],
+            "interactions": [
+              {
+                "id": "regional-source",
+                "label": "Research prompt and official source",
+                "target": {
+                  "packId": "research-viewpoints",
+                  "featureId": "regional"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "Research orientation only. These markers are approximate camera centres, not observations, administrative boundaries or alleged sources of pollution. Compare maritime and mainland episodes separately. Ask when an environmental signal became available, what an institution demonstrably knew, which legal duty applied, and what it did. The linked regional product provides observational and model context; it does not establish legal responsibility.",
+                  "url": "https://wis2.asmc.asean.org/regional-haze-situation/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "sumatra",
+            "title": "02 | Riau, Sumatra: inspect an environmental signal",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 0.5,
+              "lon": 101.45,
+              "alt": 650000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "research-viewpoints"
+            ],
+            "interactions": [
+              {
+                "id": "sumatra-source",
+                "label": "Research prompt and official source",
+                "target": {
+                  "packId": "research-viewpoints",
+                  "featureId": "sumatra"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "Approximate research viewpoint near Pekanbaru, Riau. This marker is not a fire detection. Use the NASA source to choose a dated episode and record its instrument, acquisition time, product version and quality flags. Establish the meaning and limitations of the selected detection product before drawing an inference. A marker or spatial overlap alone does not establish an operator, breach, causation or liability.",
+                  "url": "https://firms.modaps.eosdis.nasa.gov/map/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "singapore",
+            "title": "03 | Singapore: record impacts and institutional acts",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 1.3,
+              "lon": 103.82,
+              "alt": 180000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "research-viewpoints"
+            ],
+            "interactions": [
+              {
+                "id": "singapore-source",
+                "label": "Research prompt and official source",
+                "target": {
+                  "packId": "research-viewpoints",
+                  "featureId": "singapore"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "Approximate Singapore research viewpoint, not a monitoring station. The linked portal separates 1-hour PM2.5 and 24-hour PSI; preserve the metric, unit and averaging period. Record each institutional act in a separate dated record with a primary source and pinpoint. Distinguish an advisory, investigation, formal notice, proceeding and sanction. This research viewpoint asserts no enforcement event. The separate Singapore scene contains dated measurement snapshots.",
+                  "url": "https://www.haze.gov.sg/"
+                }
+              }
+            ]
+          },
+          {
+            "id": "chiang-mai",
+            "title": "04 | Northern Thailand: construct a separate comparison",
+            "durationSec": 5,
+            "holdSec": 10,
+            "camera": {
+              "lat": 18.79,
+              "lon": 98.99,
+              "alt": 280000,
+              "altitudeReference": "ellipsoid",
+              "heading": 0,
+              "pitch": -90,
+              "roll": 0
+            },
+            "visual": {
+              "style": "normal"
+            },
+            "layers": {},
+            "dataPackIds": [
+              "research-viewpoints"
+            ],
+            "interactions": [
+              {
+                "id": "chiang-mai-source",
+                "label": "Research prompt and official source",
+                "target": {
+                  "packId": "research-viewpoints",
+                  "featureId": "chiang-mai"
+                },
+                "action": {
+                  "type": "card",
+                  "text": "Approximate Chiang Mai research viewpoint. Treat this as a separate mainland comparison, not a continuation of a Sumatra-to-Singapore causal chain. Start with dated ASMC advisories relevant to the Mekong sub-region, then corroborate the chosen episode with Thai primary records. Verify any Thai instrument in its authoritative text, its effective date, the competent institution and the operative duty. Thai station data and legal instruments have not yet been incorporated.",
+                  "url": "https://asmc.asean.org/asmc-alerts/"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  "assets": [
+    {
+      "path": "files/0-singapore-readings.geojson",
+      "mimeType": "application/geo+json",
+      "base64": "ewogICJ0eXBlIjogIkZlYXR1cmVDb2xsZWN0aW9uIiwKICAiZmVhdHVyZXMiOiBbCiAgICB7CiAgICAgICJ0eXBlIjogIkZlYXR1cmUiLAogICAgICAiaWQiOiAic2ctbm9ydGgiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJOb3J0aCIsCiAgICAgICAgImxvY2F0aW9uX3JvbGUiOiAiUHJvdmlkZXIgcmVnaW9uYWwgbGFiZWwgbG9jYXRpb24sIG5vdCBhIG1vbml0b3Jpbmcgc3RhdGlvbiIsCiAgICAgICAgInBtMjVfb25lX2hvdXJseSI6IDEyLAogICAgICAgICJwc2lfdHdlbnR5X2ZvdXJfaG91cmx5IjogMzgsCiAgICAgICAgInBtMjVfdGltZXN0YW1wIjogIjIwMjYtMTEtMTVUMjA6MDA6MDArMDg6MDAiLAogICAgICAgICJwc2lfdGltZXN0YW1wIjogIjIwMjYtMTEtMTVUMjA6MDA6MDArMDg6MDAiLAogICAgICAgICJkaXNwbGF5X2hlaWdodF9ub3RlIjogIkFydGlmaWNpYWwgMTIwMCBtZXRyZSBkaXNwbGF5IG9mZnNldDsgbm90IGEgbWVhc3VyZWQgYWx0aXR1ZGUiCiAgICAgIH0sCiAgICAgICJnZW9tZXRyeSI6IHsKICAgICAgICAidHlwZSI6ICJQb2ludCIsCiAgICAgICAgImNvb3JkaW5hdGVzIjogWwogICAgICAgICAgMTAzLjgyLAogICAgICAgICAgMS40MTgwMywKICAgICAgICAgIDEyMDAKICAgICAgICBdCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogIkZlYXR1cmUiLAogICAgICAiaWQiOiAic2ctc291dGgiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJTb3V0aCIsCiAgICAgICAgImxvY2F0aW9uX3JvbGUiOiAiUHJvdmlkZXIgcmVnaW9uYWwgbGFiZWwgbG9jYXRpb24sIG5vdCBhIG1vbml0b3Jpbmcgc3RhdGlvbiIsCiAgICAgICAgInBtMjVfb25lX2hvdXJseSI6IDE0LAogICAgICAgICJwc2lfdHdlbnR5X2ZvdXJfaG91cmx5IjogMzgsCiAgICAgICAgInBtMjVfdGltZXN0YW1wIjogIjIwMjYtMTEtMTVUMjA6MDA6MDArMDg6MDAiLAogICAgICAgICJwc2lfdGltZXN0YW1wIjogIjIwMjYtMTEtMTVUMjA6MDA6MDArMDg6MDAiLAogICAgICAgICJkaXNwbGF5X2hlaWdodF9ub3RlIjogIkFydGlmaWNpYWwgMTIwMCBtZXRyZSBkaXNwbGF5IG9mZnNldDsgbm90IGEgbWVhc3VyZWQgYWx0aXR1ZGUiCiAgICAgIH0sCiAgICAgICJnZW9tZXRyeSI6IHsKICAgICAgICAidHlwZSI6ICJQb2ludCIsCiAgICAgICAgImNvb3JkaW5hdGVzIjogWwogICAgICAgICAgMTAzLjgyLAogICAgICAgICAgMS4yOTU4NywKICAgICAgICAgIDEyMDAKICAgICAgICBdCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogIkZlYXR1cmUiLAogICAgICAiaWQiOiAic2ctZWFzdCIsCiAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICJuYW1lIjogIkVhc3QiLAogICAgICAgICJsb2NhdGlvbl9yb2xlIjogIlByb3ZpZGVyIHJlZ2lvbmFsIGxhYmVsIGxvY2F0aW9uLCBub3QgYSBtb25pdG9yaW5nIHN0YXRpb24iLAogICAgICAgICJwbTI1X29uZV9ob3VybHkiOiAxMSwKICAgICAgICAicHNpX3R3ZW50eV9mb3VyX2hvdXJseSI6IDQwLAogICAgICAgICJwbTI1X3RpbWVzdGFtcCI6ICIyMDI2LTExLTE1VDIwOjAwOjAwKzA4OjAwIiwKICAgICAgICAicHNpX3RpbWVzdGFtcCI6ICIyMDI2LTExLTE1VDIwOjAwOjAwKzA4OjAwIiwKICAgICAgICAiZGlzcGxheV9oZWlnaHRfbm90ZSI6ICJBcnRpZmljaWFsIDEyMDAgbWV0cmUgZGlzcGxheSBvZmZzZXQ7IG5vdCBhIG1lYXN1cmVkIGFsdGl0dWRlIgogICAgICB9LAogICAgICAiZ2VvbWV0cnkiOiB7CiAgICAgICAgInR5cGUiOiAiUG9pbnQiLAogICAgICAgICJjb29yZGluYXRlcyI6IFsKICAgICAgICAgIDEwMy45NCwKICAgICAgICAgIDEuMzU3MzUsCiAgICAgICAgICAxMjAwCiAgICAgICAgXQogICAgICB9CiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJGZWF0dXJlIiwKICAgICAgImlkIjogInNnLXdlc3QiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJXZXN0IiwKICAgICAgICAibG9jYXRpb25fcm9sZSI6ICJQcm92aWRlciByZWdpb25hbCBsYWJlbCBsb2NhdGlvbiwgbm90IGEgbW9uaXRvcmluZyBzdGF0aW9uIiwKICAgICAgICAicG0yNV9vbmVfaG91cmx5IjogMjQsCiAgICAgICAgInBzaV90d2VudHlfZm91cl9ob3VybHkiOiA0MSwKICAgICAgICAicG0yNV90aW1lc3RhbXAiOiAiMjAyNi0xMS0xNVQyMDowMDowMCswODowMCIsCiAgICAgICAgInBzaV90aW1lc3RhbXAiOiAiMjAyNi0xMS0xNVQyMDowMDowMCswODowMCIsCiAgICAgICAgImRpc3BsYXlfaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCAxMjAwIG1ldHJlIGRpc3BsYXkgb2Zmc2V0OyBub3QgYSBtZWFzdXJlZCBhbHRpdHVkZSIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICAxMDMuNywKICAgICAgICAgIDEuMzU3MzUsCiAgICAgICAgICAxMjAwCiAgICAgICAgXQogICAgICB9CiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJGZWF0dXJlIiwKICAgICAgImlkIjogInNnLWNlbnRyYWwiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJDZW50cmFsIiwKICAgICAgICAibG9jYXRpb25fcm9sZSI6ICJQcm92aWRlciByZWdpb25hbCBsYWJlbCBsb2NhdGlvbiwgbm90IGEgbW9uaXRvcmluZyBzdGF0aW9uIiwKICAgICAgICAicG0yNV9vbmVfaG91cmx5IjogMTYsCiAgICAgICAgInBzaV90d2VudHlfZm91cl9ob3VybHkiOiAzOSwKICAgICAgICAicG0yNV90aW1lc3RhbXAiOiAiMjAyNi0xMS0xNVQyMDowMDowMCswODowMCIsCiAgICAgICAgInBzaV90aW1lc3RhbXAiOiAiMjAyNi0xMS0xNVQyMDowMDowMCswODowMCIsCiAgICAgICAgImRpc3BsYXlfaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCAxMjAwIG1ldHJlIGRpc3BsYXkgb2Zmc2V0OyBub3QgYSBtZWFzdXJlZCBhbHRpdHVkZSIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICAxMDMuODIsCiAgICAgICAgICAxLjM1NzM1LAogICAgICAgICAgMTIwMAogICAgICAgIF0KICAgICAgfQogICAgfQogIF0KfQo=",
+      "sha256": "e0ec7f9843c43478ebd825a43c3d00e6341655778c231e5c140c14ed9f4a5f6e"
+    },
+    {
+      "path": "files/1-research-viewpoints.geojson",
+      "mimeType": "application/geo+json",
+      "base64": "ewogICJ0eXBlIjogIkZlYXR1cmVDb2xsZWN0aW9uIiwKICAiZmVhdHVyZXMiOiBbCiAgICB7CiAgICAgICJ0eXBlIjogIkZlYXR1cmUiLAogICAgICAiaWQiOiAicmVnaW9uYWwiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICIwMSB8IEFTRUFOOiBmcmFtZSB0aGUgcmVzZWFyY2ggcXVlc3Rpb24iLAogICAgICAgICJyb2xlIjogIkFwcHJveGltYXRlIHJlc2VhcmNoIHZpZXdwb2ludDsgbm90IGFuIG9ic2VydmF0aW9uIiwKICAgICAgICAiaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCBkaXNwbGF5IGhlaWdodCIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICAxMDQsCiAgICAgICAgICA5LAogICAgICAgICAgNTAwMAogICAgICAgIF0KICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAiRmVhdHVyZSIsCiAgICAgICJpZCI6ICJzdW1hdHJhIiwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgIm5hbWUiOiAiMDIgfCBSaWF1LCBTdW1hdHJhOiBpbnNwZWN0IGFuIGVudmlyb25tZW50YWwgc2lnbmFsIiwKICAgICAgICAicm9sZSI6ICJBcHByb3hpbWF0ZSByZXNlYXJjaCB2aWV3cG9pbnQ7IG5vdCBhbiBvYnNlcnZhdGlvbiIsCiAgICAgICAgImhlaWdodF9ub3RlIjogIkFydGlmaWNpYWwgZGlzcGxheSBoZWlnaHQiCiAgICAgIH0sCiAgICAgICJnZW9tZXRyeSI6IHsKICAgICAgICAidHlwZSI6ICJQb2ludCIsCiAgICAgICAgImNvb3JkaW5hdGVzIjogWwogICAgICAgICAgMTAxLjQ1LAogICAgICAgICAgMC41LAogICAgICAgICAgNTAwMAogICAgICAgIF0KICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAiRmVhdHVyZSIsCiAgICAgICJpZCI6ICJzaW5nYXBvcmUiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICIwMyB8IFNpbmdhcG9yZTogcmVjb3JkIGltcGFjdHMgYW5kIGluc3RpdHV0aW9uYWwgYWN0cyIsCiAgICAgICAgInJvbGUiOiAiQXBwcm94aW1hdGUgcmVzZWFyY2ggdmlld3BvaW50OyBub3QgYW4gb2JzZXJ2YXRpb24iLAogICAgICAgICJoZWlnaHRfbm90ZSI6ICJBcnRpZmljaWFsIGRpc3BsYXkgaGVpZ2h0IgogICAgICB9LAogICAgICAiZ2VvbWV0cnkiOiB7CiAgICAgICAgInR5cGUiOiAiUG9pbnQiLAogICAgICAgICJjb29yZGluYXRlcyI6IFsKICAgICAgICAgIDEwMy44MiwKICAgICAgICAgIDEuMywKICAgICAgICAgIDUwMDAKICAgICAgICBdCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogIkZlYXR1cmUiLAogICAgICAiaWQiOiAiY2hpYW5nLW1haSIsCiAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICJuYW1lIjogIjA0IHwgTm9ydGhlcm4gVGhhaWxhbmQ6IGNvbnN0cnVjdCBhIHNlcGFyYXRlIGNvbXBhcmlzb24iLAogICAgICAgICJyb2xlIjogIkFwcHJveGltYXRlIHJlc2VhcmNoIHZpZXdwb2ludDsgbm90IGFuIG9ic2VydmF0aW9uIiwKICAgICAgICAiaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCBkaXNwbGF5IGhlaWdodCIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICA5OC45OSwKICAgICAgICAgIDE4Ljc5LAogICAgICAgICAgNTAwMAogICAgICAgIF0KICAgICAgfQogICAgfQogIF0KfQo=",
+      "sha256": "2857dcebe33e31face249b9da6214ba72c352f53af7571040b2140957cc83fbb"
+    }
+  ]
+}

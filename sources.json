@@ -1,0 +1,43 @@
+{
+  "checked_on": "2026-11-15",
+  "sources": [
+    {
+      "id": "firms",
+      "title": "NASA FIRMS fire map",
+      "url": "https://firms.modaps.eosdis.nasa.gov/map/",
+      "publisher": "NASA",
+      "purpose": "Locate and inspect dated satellite thermal detections.",
+      "checked_on": "2026-11-15",
+      "verification": "Official landing page retrieved; interactive observations were not downloaded."
+    },
+    {
+      "id": "asmc-alerts",
+      "title": "ASMC alerts",
+      "url": "https://asmc.asean.org/asmc-alerts/",
+      "publisher": "ASEAN Specialised Meteorological Centre",
+      "purpose": "Identify dated regional haze advisories and their stated observational basis.",
+      "checked_on": "2026-11-15",
+      "verification": "Official advisory page retrieved. No individual alert is encoded in this prototype."
+    },
+    {
+      "id": "nea",
+      "title": "Singapore haze and air quality",
+      "url": "https://www.haze.gov.sg/",
+      "publisher": "National Environment Agency, Singapore",
+      "purpose": "Consult Singapore air-quality readings and their averaging periods.",
+      "checked_on": "2026-11-15",
+      "verification": "Official page retrieved. Live numeric readings were not extracted."
+    },
+    {
+      "id": "asmc-regional",
+      "title": "Regional Haze Situation",
+      "url": "https://wis2.asmc.asean.org/regional-haze-situation/",
+      "publisher": "ASEAN Specialised Meteorological Centre",
+      "purpose": "Inspect regional hotspot and wind context, including mainland Southeast Asia.",
+      "checked_on": "2026-11-15",
+      "verification": "Official page and product metadata retrieved. The page identifies the wind arrows as model analysis winds."
+    }
+  ],
+  "access_note": "Thai PCD/Air4Thai pages timed out or returned a service error during this review. They are not represented as verified working source cards. Their live readings and Thai legal sources remain to be checked for a selected episode."
+}
+
