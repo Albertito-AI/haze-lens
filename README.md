@@ -97,3 +97,6 @@ The upstream portable validator and bundle helpers are reproduced verbatim under
 
 Public repository: [Albertito-AI/haze-lens](https://github.com/Albertito-AI/haze-lens). Updates run on demand; no scheduled workflow is included.
 
+## Sport governance teaching application
+
+Compare a dated Singapore haze observation with the authorised event advisory. Record the next reassessment and the officer who can change the programme. [Exercise and records](https://github.com/Albertito-AI/sport-governance-and-administration/blob/main/cases/20-paris-seine-triathlon.md) · [Albert Tan’s book and teaching companion](https://alberttansinhon.com/sport-governance/).
