@@ -14,7 +14,7 @@ Haze Lens puts a dated Singapore air-quality snapshot on the globe and provides 
 - A manual refresh script that validates both API responses before updating the snapshot and retains successful captures in an archive.
 - Checks for malformed, missing and stale readings, scene validity, action targets, asset integrity and export/import preservation.
 
-The initial readings are timestamped **15 November 2026, 20:00 Singapore time**. View the [snapshot table](dist/SNAPSHOT.md) for the exact values. The first capture was assembled from official API responses retrieved through web browsing; it is canonicalised response JSON, not a byte-for-byte HTTP capture. That distinction is recorded in the provenance.
+The snapshot table gives the observation and capture times. Each archived response also records when the provider updated its readings. The archive also preserves the first capture, assembled from the official responses on 15 November 2026. Its record describes how those responses were retrieved and serialised. [Snapshot table](dist/SNAPSHOT.md) · [Capture archive](data/archive/).
 
 ## Why this can help
 
@@ -45,7 +45,7 @@ npm run refresh
 
 That command retrieves the two public NEA endpoints, validates their contents, saves a timestamped capture, rebuilds the bundle and runs checks. It has no timer, cloud function or scheduled GitHub workflow. A failed response leaves the preceding current snapshot in place. Reimport the rebuilt bundle to see the new snapshot.
 
-The refresh transport is tested with controlled responses, including HTTP failure. Direct API access from this execution environment returned HTTP 403, so a live command-line refresh has **not** been verified here. The included initial observations were retrieved successfully from the official endpoints through web browsing. On a network that cannot reach those endpoints, the script reports the failure and retains the previous snapshot.
+On 26 November 2026 the command retrieved both official data feeds and archived the 16:00 Singapore time observations. The offline suite also exercises successful and failed HTTP responses. [Dated source capture](data/archive/2026-11-26T08-26-55-255Z.json).
 
 For an entirely offline rebuild:
 
@@ -53,6 +53,8 @@ For an entirely offline rebuild:
 node build.mjs
 node check.mjs
 ```
+
+The scene cards compare observation times with the recorded capture time. Rebuilding an archived capture on a later date therefore preserves its descriptions and file hashes. GitHub Actions rebuilds the saved snapshot on Node.js 24 and 26 and compares the resulting files with the published bundle.
 
 ## Meaning and limits of the map
 
