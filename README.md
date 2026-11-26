@@ -26,14 +26,14 @@ Start with one episode. Preserve the environmental product and its metadata, ide
 
 1. Use a current local installation of God's Eye View with **version-6 scenes and scene bundles**. Follow the upstream README to install the application; this repository contains the extension and portable validators only.
 2. Choose **Explore Manually** and a keyless basemap. This pack activates no live or paid data-provider layers and requires no API keys.
-3. Open **Director / Authoring**. Export any current project you want to keep: applying an import replaces the active project.
+3. Open **AUTHORING**. Use **EXPORT** to save any project you want to keep before applying the import.
 4. Select **IMPORT**, choose [dist/Haze_Lens.gevbundle.json](dist/Haze_Lens.gevbundle.json), review the preview, then apply it.
-5. Select the Singapore overview or a regional shot and press **LOAD**. Click a marker, then the source-card button. Actions are inactive during automatic playback.
+5. Select the Singapore overview or a regional shot and press **LOAD**. Once the shot has loaded, minimise **AUTHORING** to see **Scene actions**. Click a marker and select its source card, or use Tab and Enter to choose a card. Stop automatic playback before using the actions.
 6. Reimport the bundle after reloading the application, because its asset bytes are held for the current session.
 
 The control names follow the upstream [sharing guide](https://github.com/bilawalsidhu/gods-eye-view/blob/3d25a284f9186dcc936c26e0c4f745337b402e37/docs/DIRECTOR-SHARING.md) and [actions guide](https://github.com/bilawalsidhu/gods-eye-view/blob/3d25a284f9186dcc936c26e0c4f745337b402e37/docs/DIRECTOR-INTERACTIONS.md).
 
-**Verification limit:** document and data checks pass. The complete globe application has not been installed or launched here, so visual rendering and browser interactions remain untested.
+On 26 November 2026, the published bundle was imported into the [pinned version of God's Eye View](https://github.com/bilawalsidhu/gods-eye-view/tree/3d25a284f9186dcc936c26e0c4f745337b402e37) running in Chromium. The import preview verified 4,869 bundled bytes and listed two scenes, ten shots and two data packs. The opening shot of each scene loaded with external basemap services disconnected. Clicking the north marker selected its action. All five Singapore source cards showed the measurements in the [dated snapshot table](dist/SNAPSHOT.md) and linked to the National Environment Agency's haze portal.
 
 ## Refresh on demand
 
@@ -63,7 +63,7 @@ The scene cards compare observation times with the recorded capture time. Rebuil
 | Singapore markers | NEA regional label locations with captured measurements | They are not monitoring-station coordinates. |
 | 1-hour PM2.5 | Concentration in micrograms per cubic metre | It is not the 24-hour PSI and does not by itself identify a pollution source. |
 | 24-hour PSI | A separate air-quality index | Do not compare its numeric value directly with PM2.5 concentration or another country's index. |
-| Freshness text | Whether the observations were over two hours old when the bundle was built | This is a display rule, not a health threshold; it does not update while the bundle is open. |
+| Freshness text | Whether either observation was over two hours old at the recorded capture time | The two-hour interval is a display convention. It stays fixed when the bundle is reopened. |
 | ASEAN viewpoints | Approximate locations for organising research | They are not fires, emissions sources or allegations. Tour order implies no pollution trajectory. |
 | Institutional and legal ledger fields | A structure for a documented assessment | They remain empty until primary records and legal instruments are verified. |
 
