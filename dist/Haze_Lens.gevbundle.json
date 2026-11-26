@@ -3,11 +3,11 @@
   "version": 1,
   "project": {
     "version": 6,
-    "createdAt": "2026-11-15T12:49:45.465Z",
+    "createdAt": "2026-11-26T08:26:55.255Z",
     "scenes": [
       {
         "id": "singapore-air-quality-snapshot",
-        "title": "Singapore air quality | Snapshot 2026-11-15T20:00:00+08:00",
+        "title": "Singapore air quality | Snapshot 2026-11-26T16:00:00+08:00",
         "dataPacks": [
           {
             "id": "singapore-readings",
@@ -25,8 +25,8 @@
             "placement": {
               "altitudeReference": "ellipsoid"
             },
-            "byteLength": 3143,
-            "sha256": "e0ec7f9843c43478ebd825a43c3d00e6341655778c231e5c140c14ed9f4a5f6e"
+            "byteLength": 3139,
+            "sha256": "ca675c9b2e0cb20df27e7eece922048fa4a8e5645e836af9d629f770593e6700"
           }
         ],
         "shots": [
@@ -61,7 +61,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "North Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 12 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 38 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "North Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 3 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 33 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               },
@@ -74,7 +74,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "South Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 14 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 38 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "South Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 10 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 26 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               },
@@ -87,7 +87,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "East Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 11 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 40 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "East Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 5 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 36 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               },
@@ -100,7 +100,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "West Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 24 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 41 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "West Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 5 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 24 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               },
@@ -113,7 +113,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "Central Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 16 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 39 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "Central Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 3 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 27 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               }
@@ -121,7 +121,7 @@
           },
           {
             "id": "sg-north",
-            "title": "North | PM2.5 12 | PSI 38 | snapshot",
+            "title": "North | PM2.5 3 | PSI 33 | snapshot",
             "durationSec": 5,
             "holdSec": 10,
             "camera": {
@@ -150,7 +150,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "North Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 12 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 38 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "North Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 3 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 33 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               }
@@ -158,7 +158,7 @@
           },
           {
             "id": "sg-south",
-            "title": "South | PM2.5 14 | PSI 38 | snapshot",
+            "title": "South | PM2.5 10 | PSI 26 | snapshot",
             "durationSec": 5,
             "holdSec": 10,
             "camera": {
@@ -187,7 +187,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "South Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 14 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 38 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "South Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 10 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 26 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               }
@@ -195,7 +195,7 @@
           },
           {
             "id": "sg-east",
-            "title": "East | PM2.5 11 | PSI 40 | snapshot",
+            "title": "East | PM2.5 5 | PSI 36 | snapshot",
             "durationSec": 5,
             "holdSec": 10,
             "camera": {
@@ -224,7 +224,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "East Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 11 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 40 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "East Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 5 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 36 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               }
@@ -232,7 +232,7 @@
           },
           {
             "id": "sg-west",
-            "title": "West | PM2.5 24 | PSI 41 | snapshot",
+            "title": "West | PM2.5 5 | PSI 24 | snapshot",
             "durationSec": 5,
             "holdSec": 10,
             "camera": {
@@ -261,7 +261,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "West Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 24 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 41 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "West Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 5 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 24 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               }
@@ -269,7 +269,7 @@
           },
           {
             "id": "sg-central",
-            "title": "Central | PM2.5 16 | PSI 39 | snapshot",
+            "title": "Central | PM2.5 3 | PSI 27 | snapshot",
             "durationSec": 5,
             "holdSec": 10,
             "camera": {
@@ -298,7 +298,7 @@
                 },
                 "action": {
                   "type": "card",
-                  "text": "Central Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 16 micrograms per cubic metre. Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:30:46+08:00.\n\n24-hour PSI: 39 (index). Observation: 2026-11-15T20:00:00+08:00. Provider update: 2026-11-15T20:15:46+08:00.\n\nCapture recorded: 2026-11-15T12:49:45.465Z. Freshness at build: within-two-hours-at-build. The two-hour label is a display rule, not a health threshold.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
+                  "text": "Central Singapore. DATED SNAPSHOT, not a continuous live feed.\n\n1-hour PM2.5: 3 micrograms per cubic metre. Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\n24-hour PSI: 27 (index). Observation: 2026-11-26T16:00:00+08:00. Provider update: 2026-11-26T16:15:33+08:00.\n\nCapture recorded: 2026-11-26T08:26:55.255Z. Both observation times were within two hours of capture. The two-hour interval is a display convention.\n\nThis pin is NEA regional label metadata, not a monitoring station. Display height is artificial.\n\nThese measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.",
                   "url": "https://www.haze.gov.sg/"
                 }
               }
@@ -486,8 +486,8 @@
     {
       "path": "files/0-singapore-readings.geojson",
       "mimeType": "application/geo+json",
-      "base64": "ewogICJ0eXBlIjogIkZlYXR1cmVDb2xsZWN0aW9uIiwKICAiZmVhdHVyZXMiOiBbCiAgICB7CiAgICAgICJ0eXBlIjogIkZlYXR1cmUiLAogICAgICAiaWQiOiAic2ctbm9ydGgiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJOb3J0aCIsCiAgICAgICAgImxvY2F0aW9uX3JvbGUiOiAiUHJvdmlkZXIgcmVnaW9uYWwgbGFiZWwgbG9jYXRpb24sIG5vdCBhIG1vbml0b3Jpbmcgc3RhdGlvbiIsCiAgICAgICAgInBtMjVfb25lX2hvdXJseSI6IDEyLAogICAgICAgICJwc2lfdHdlbnR5X2ZvdXJfaG91cmx5IjogMzgsCiAgICAgICAgInBtMjVfdGltZXN0YW1wIjogIjIwMjYtMTEtMTVUMjA6MDA6MDArMDg6MDAiLAogICAgICAgICJwc2lfdGltZXN0YW1wIjogIjIwMjYtMTEtMTVUMjA6MDA6MDArMDg6MDAiLAogICAgICAgICJkaXNwbGF5X2hlaWdodF9ub3RlIjogIkFydGlmaWNpYWwgMTIwMCBtZXRyZSBkaXNwbGF5IG9mZnNldDsgbm90IGEgbWVhc3VyZWQgYWx0aXR1ZGUiCiAgICAgIH0sCiAgICAgICJnZW9tZXRyeSI6IHsKICAgICAgICAidHlwZSI6ICJQb2ludCIsCiAgICAgICAgImNvb3JkaW5hdGVzIjogWwogICAgICAgICAgMTAzLjgyLAogICAgICAgICAgMS40MTgwMywKICAgICAgICAgIDEyMDAKICAgICAgICBdCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogIkZlYXR1cmUiLAogICAgICAiaWQiOiAic2ctc291dGgiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJTb3V0aCIsCiAgICAgICAgImxvY2F0aW9uX3JvbGUiOiAiUHJvdmlkZXIgcmVnaW9uYWwgbGFiZWwgbG9jYXRpb24sIG5vdCBhIG1vbml0b3Jpbmcgc3RhdGlvbiIsCiAgICAgICAgInBtMjVfb25lX2hvdXJseSI6IDE0LAogICAgICAgICJwc2lfdHdlbnR5X2ZvdXJfaG91cmx5IjogMzgsCiAgICAgICAgInBtMjVfdGltZXN0YW1wIjogIjIwMjYtMTEtMTVUMjA6MDA6MDArMDg6MDAiLAogICAgICAgICJwc2lfdGltZXN0YW1wIjogIjIwMjYtMTEtMTVUMjA6MDA6MDArMDg6MDAiLAogICAgICAgICJkaXNwbGF5X2hlaWdodF9ub3RlIjogIkFydGlmaWNpYWwgMTIwMCBtZXRyZSBkaXNwbGF5IG9mZnNldDsgbm90IGEgbWVhc3VyZWQgYWx0aXR1ZGUiCiAgICAgIH0sCiAgICAgICJnZW9tZXRyeSI6IHsKICAgICAgICAidHlwZSI6ICJQb2ludCIsCiAgICAgICAgImNvb3JkaW5hdGVzIjogWwogICAgICAgICAgMTAzLjgyLAogICAgICAgICAgMS4yOTU4NywKICAgICAgICAgIDEyMDAKICAgICAgICBdCiAgICAgIH0KICAgIH0sCiAgICB7CiAgICAgICJ0eXBlIjogIkZlYXR1cmUiLAogICAgICAiaWQiOiAic2ctZWFzdCIsCiAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICJuYW1lIjogIkVhc3QiLAogICAgICAgICJsb2NhdGlvbl9yb2xlIjogIlByb3ZpZGVyIHJlZ2lvbmFsIGxhYmVsIGxvY2F0aW9uLCBub3QgYSBtb25pdG9yaW5nIHN0YXRpb24iLAogICAgICAgICJwbTI1X29uZV9ob3VybHkiOiAxMSwKICAgICAgICAicHNpX3R3ZW50eV9mb3VyX2hvdXJseSI6IDQwLAogICAgICAgICJwbTI1X3RpbWVzdGFtcCI6ICIyMDI2LTExLTE1VDIwOjAwOjAwKzA4OjAwIiwKICAgICAgICAicHNpX3RpbWVzdGFtcCI6ICIyMDI2LTExLTE1VDIwOjAwOjAwKzA4OjAwIiwKICAgICAgICAiZGlzcGxheV9oZWlnaHRfbm90ZSI6ICJBcnRpZmljaWFsIDEyMDAgbWV0cmUgZGlzcGxheSBvZmZzZXQ7IG5vdCBhIG1lYXN1cmVkIGFsdGl0dWRlIgogICAgICB9LAogICAgICAiZ2VvbWV0cnkiOiB7CiAgICAgICAgInR5cGUiOiAiUG9pbnQiLAogICAgICAgICJjb29yZGluYXRlcyI6IFsKICAgICAgICAgIDEwMy45NCwKICAgICAgICAgIDEuMzU3MzUsCiAgICAgICAgICAxMjAwCiAgICAgICAgXQogICAgICB9CiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJGZWF0dXJlIiwKICAgICAgImlkIjogInNnLXdlc3QiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJXZXN0IiwKICAgICAgICAibG9jYXRpb25fcm9sZSI6ICJQcm92aWRlciByZWdpb25hbCBsYWJlbCBsb2NhdGlvbiwgbm90IGEgbW9uaXRvcmluZyBzdGF0aW9uIiwKICAgICAgICAicG0yNV9vbmVfaG91cmx5IjogMjQsCiAgICAgICAgInBzaV90d2VudHlfZm91cl9ob3VybHkiOiA0MSwKICAgICAgICAicG0yNV90aW1lc3RhbXAiOiAiMjAyNi0xMS0xNVQyMDowMDowMCswODowMCIsCiAgICAgICAgInBzaV90aW1lc3RhbXAiOiAiMjAyNi0xMS0xNVQyMDowMDowMCswODowMCIsCiAgICAgICAgImRpc3BsYXlfaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCAxMjAwIG1ldHJlIGRpc3BsYXkgb2Zmc2V0OyBub3QgYSBtZWFzdXJlZCBhbHRpdHVkZSIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICAxMDMuNywKICAgICAgICAgIDEuMzU3MzUsCiAgICAgICAgICAxMjAwCiAgICAgICAgXQogICAgICB9CiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJGZWF0dXJlIiwKICAgICAgImlkIjogInNnLWNlbnRyYWwiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJDZW50cmFsIiwKICAgICAgICAibG9jYXRpb25fcm9sZSI6ICJQcm92aWRlciByZWdpb25hbCBsYWJlbCBsb2NhdGlvbiwgbm90IGEgbW9uaXRvcmluZyBzdGF0aW9uIiwKICAgICAgICAicG0yNV9vbmVfaG91cmx5IjogMTYsCiAgICAgICAgInBzaV90d2VudHlfZm91cl9ob3VybHkiOiAzOSwKICAgICAgICAicG0yNV90aW1lc3RhbXAiOiAiMjAyNi0xMS0xNVQyMDowMDowMCswODowMCIsCiAgICAgICAgInBzaV90aW1lc3RhbXAiOiAiMjAyNi0xMS0xNVQyMDowMDowMCswODowMCIsCiAgICAgICAgImRpc3BsYXlfaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCAxMjAwIG1ldHJlIGRpc3BsYXkgb2Zmc2V0OyBub3QgYSBtZWFzdXJlZCBhbHRpdHVkZSIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICAxMDMuODIsCiAgICAgICAgICAxLjM1NzM1LAogICAgICAgICAgMTIwMAogICAgICAgIF0KICAgICAgfQogICAgfQogIF0KfQo=",
-      "sha256": "e0ec7f9843c43478ebd825a43c3d00e6341655778c231e5c140c14ed9f4a5f6e"
+      "base64": "ewogICJ0eXBlIjogIkZlYXR1cmVDb2xsZWN0aW9uIiwKICAiZmVhdHVyZXMiOiBbCiAgICB7CiAgICAgICJ0eXBlIjogIkZlYXR1cmUiLAogICAgICAiaWQiOiAic2ctbm9ydGgiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJOb3J0aCIsCiAgICAgICAgImxvY2F0aW9uX3JvbGUiOiAiUHJvdmlkZXIgcmVnaW9uYWwgbGFiZWwgbG9jYXRpb24sIG5vdCBhIG1vbml0b3Jpbmcgc3RhdGlvbiIsCiAgICAgICAgInBtMjVfb25lX2hvdXJseSI6IDMsCiAgICAgICAgInBzaV90d2VudHlfZm91cl9ob3VybHkiOiAzMywKICAgICAgICAicG0yNV90aW1lc3RhbXAiOiAiMjAyNi0xMS0yNlQxNjowMDowMCswODowMCIsCiAgICAgICAgInBzaV90aW1lc3RhbXAiOiAiMjAyNi0xMS0yNlQxNjowMDowMCswODowMCIsCiAgICAgICAgImRpc3BsYXlfaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCAxMjAwIG1ldHJlIGRpc3BsYXkgb2Zmc2V0OyBub3QgYSBtZWFzdXJlZCBhbHRpdHVkZSIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICAxMDMuODIsCiAgICAgICAgICAxLjQxODAzLAogICAgICAgICAgMTIwMAogICAgICAgIF0KICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAiRmVhdHVyZSIsCiAgICAgICJpZCI6ICJzZy1zb3V0aCIsCiAgICAgICJwcm9wZXJ0aWVzIjogewogICAgICAgICJuYW1lIjogIlNvdXRoIiwKICAgICAgICAibG9jYXRpb25fcm9sZSI6ICJQcm92aWRlciByZWdpb25hbCBsYWJlbCBsb2NhdGlvbiwgbm90IGEgbW9uaXRvcmluZyBzdGF0aW9uIiwKICAgICAgICAicG0yNV9vbmVfaG91cmx5IjogMTAsCiAgICAgICAgInBzaV90d2VudHlfZm91cl9ob3VybHkiOiAyNiwKICAgICAgICAicG0yNV90aW1lc3RhbXAiOiAiMjAyNi0xMS0yNlQxNjowMDowMCswODowMCIsCiAgICAgICAgInBzaV90aW1lc3RhbXAiOiAiMjAyNi0xMS0yNlQxNjowMDowMCswODowMCIsCiAgICAgICAgImRpc3BsYXlfaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCAxMjAwIG1ldHJlIGRpc3BsYXkgb2Zmc2V0OyBub3QgYSBtZWFzdXJlZCBhbHRpdHVkZSIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICAxMDMuODIsCiAgICAgICAgICAxLjI5NTg3LAogICAgICAgICAgMTIwMAogICAgICAgIF0KICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAiRmVhdHVyZSIsCiAgICAgICJpZCI6ICJzZy1lYXN0IiwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgIm5hbWUiOiAiRWFzdCIsCiAgICAgICAgImxvY2F0aW9uX3JvbGUiOiAiUHJvdmlkZXIgcmVnaW9uYWwgbGFiZWwgbG9jYXRpb24sIG5vdCBhIG1vbml0b3Jpbmcgc3RhdGlvbiIsCiAgICAgICAgInBtMjVfb25lX2hvdXJseSI6IDUsCiAgICAgICAgInBzaV90d2VudHlfZm91cl9ob3VybHkiOiAzNiwKICAgICAgICAicG0yNV90aW1lc3RhbXAiOiAiMjAyNi0xMS0yNlQxNjowMDowMCswODowMCIsCiAgICAgICAgInBzaV90aW1lc3RhbXAiOiAiMjAyNi0xMS0yNlQxNjowMDowMCswODowMCIsCiAgICAgICAgImRpc3BsYXlfaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCAxMjAwIG1ldHJlIGRpc3BsYXkgb2Zmc2V0OyBub3QgYSBtZWFzdXJlZCBhbHRpdHVkZSIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICAxMDMuOTQsCiAgICAgICAgICAxLjM1NzM1LAogICAgICAgICAgMTIwMAogICAgICAgIF0KICAgICAgfQogICAgfSwKICAgIHsKICAgICAgInR5cGUiOiAiRmVhdHVyZSIsCiAgICAgICJpZCI6ICJzZy13ZXN0IiwKICAgICAgInByb3BlcnRpZXMiOiB7CiAgICAgICAgIm5hbWUiOiAiV2VzdCIsCiAgICAgICAgImxvY2F0aW9uX3JvbGUiOiAiUHJvdmlkZXIgcmVnaW9uYWwgbGFiZWwgbG9jYXRpb24sIG5vdCBhIG1vbml0b3Jpbmcgc3RhdGlvbiIsCiAgICAgICAgInBtMjVfb25lX2hvdXJseSI6IDUsCiAgICAgICAgInBzaV90d2VudHlfZm91cl9ob3VybHkiOiAyNCwKICAgICAgICAicG0yNV90aW1lc3RhbXAiOiAiMjAyNi0xMS0yNlQxNjowMDowMCswODowMCIsCiAgICAgICAgInBzaV90aW1lc3RhbXAiOiAiMjAyNi0xMS0yNlQxNjowMDowMCswODowMCIsCiAgICAgICAgImRpc3BsYXlfaGVpZ2h0X25vdGUiOiAiQXJ0aWZpY2lhbCAxMjAwIG1ldHJlIGRpc3BsYXkgb2Zmc2V0OyBub3QgYSBtZWFzdXJlZCBhbHRpdHVkZSIKICAgICAgfSwKICAgICAgImdlb21ldHJ5IjogewogICAgICAgICJ0eXBlIjogIlBvaW50IiwKICAgICAgICAiY29vcmRpbmF0ZXMiOiBbCiAgICAgICAgICAxMDMuNywKICAgICAgICAgIDEuMzU3MzUsCiAgICAgICAgICAxMjAwCiAgICAgICAgXQogICAgICB9CiAgICB9LAogICAgewogICAgICAidHlwZSI6ICJGZWF0dXJlIiwKICAgICAgImlkIjogInNnLWNlbnRyYWwiLAogICAgICAicHJvcGVydGllcyI6IHsKICAgICAgICAibmFtZSI6ICJDZW50cmFsIiwKICAgICAgICAibG9jYXRpb25fcm9sZSI6ICJQcm92aWRlciByZWdpb25hbCBsYWJlbCBsb2NhdGlvbiwgbm90IGEgbW9uaXRvcmluZyBzdGF0aW9uIiwKICAgICAgICAicG0yNV9vbmVfaG91cmx5IjogMywKICAgICAgICAicHNpX3R3ZW50eV9mb3VyX2hvdXJseSI6IDI3LAogICAgICAgICJwbTI1X3RpbWVzdGFtcCI6ICIyMDI2LTExLTI2VDE2OjAwOjAwKzA4OjAwIiwKICAgICAgICAicHNpX3RpbWVzdGFtcCI6ICIyMDI2LTExLTI2VDE2OjAwOjAwKzA4OjAwIiwKICAgICAgICAiZGlzcGxheV9oZWlnaHRfbm90ZSI6ICJBcnRpZmljaWFsIDEyMDAgbWV0cmUgZGlzcGxheSBvZmZzZXQ7IG5vdCBhIG1lYXN1cmVkIGFsdGl0dWRlIgogICAgICB9LAogICAgICAiZ2VvbWV0cnkiOiB7CiAgICAgICAgInR5cGUiOiAiUG9pbnQiLAogICAgICAgICJjb29yZGluYXRlcyI6IFsKICAgICAgICAgIDEwMy44MiwKICAgICAgICAgIDEuMzU3MzUsCiAgICAgICAgICAxMjAwCiAgICAgICAgXQogICAgICB9CiAgICB9CiAgXQp9Cg==",
+      "sha256": "ca675c9b2e0cb20df27e7eece922048fa4a8e5645e836af9d629f770593e6700"
     },
     {
       "path": "files/1-research-viewpoints.geojson",

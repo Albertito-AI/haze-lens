@@ -4,6 +4,9 @@ import {normaliseSnapshot,sha256} from './core.mjs';
 const read=async path=>JSON.parse(await readFile(new URL(path,import.meta.url),'utf8'));
 const snapshot=await read('./data/nea-snapshot.json');
 const data=normaliseSnapshot(snapshot);
+const captureAge=data.within_two_hours_at_capture
+ ? 'Both observation times were within two hours of capture.'
+ : 'At least one observation was over two hours old at capture.';
 const stops=await read('./stops.json');
 const {sources}=await read('./sources.json');
 const sourceById=new Map(sources.map(s=>[s.id,s]));
@@ -22,7 +25,7 @@ const readingText=r=>[
  titleCase(r.name)+' Singapore. DATED SNAPSHOT, not a continuous live feed.',
  '1-hour PM2.5: '+(r.pm25===null?'unavailable':r.pm25+' micrograms per cubic metre')+'. Observation: '+r.pm25_timestamp+'. Provider update: '+r.pm25_updated+'.',
  '24-hour PSI: '+(r.psi===null?'unavailable':r.psi+' (index)')+'. Observation: '+r.psi_timestamp+'. Provider update: '+r.psi_updated+'.',
- 'Capture recorded: '+data.captured_at+'. Freshness at build: '+r.freshness+'. The two-hour label is a display rule, not a health threshold.',
+ 'Capture recorded: '+data.captured_at+'. '+captureAge+' The two-hour interval is a display convention.',
  'This pin is NEA regional label metadata, not a monitoring station. Display height is artificial.',
  'These measurements do not establish transboundary origin, responsibility or breach. Consult the official source for current readings and advice.'
 ].join('\n\n');

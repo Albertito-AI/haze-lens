@@ -40,6 +40,7 @@ export function normaliseSnapshot(snapshot,{now=new Date()}={}){
  for(const kind of ['pm25','psi']) if(sourceByKind.get(kind)?.url!==ENDPOINTS[kind]) throw Error('Unexpected source endpoint');
  const pm=latest(sourceByKind.get('pm25').response,'pm25',capturedMs);
  const psi=latest(sourceByKind.get('psi').response,'psi',capturedMs);
+ const oldestObservationMs=Math.min(pm.time,psi.time);
  const metadata=sourceByKind.get('pm25').response.data.regionMetadata;
  if(!Array.isArray(metadata)) throw Error('Regional location metadata missing');
  const locations=new Map(metadata.map(r=>[String(r.name).toLowerCase(),r.labelLocation]));
@@ -50,7 +51,7 @@ export function normaliseSnapshot(snapshot,{now=new Date()}={}){
    pm25:pm.values[name]??null,psi:psi.values[name]??null,
    pm25_timestamp:pm.item.timestamp,psi_timestamp:psi.item.timestamp,
    pm25_updated:pm.item.updatedTimestamp,psi_updated:psi.item.updatedTimestamp,
-   freshness:nowMs-Math.min(pm.time,psi.time)>120*60000?'older-than-two-hours-at-build':'within-two-hours-at-build'};
+   freshness:nowMs-oldestObservationMs>120*60000?'older-than-two-hours-at-build':'within-two-hours-at-build'};
  });
  const observations=[];
  for(const r of regions) for(const [kind,source] of [['pm25',pm],['psi',psi]]) observations.push({
@@ -62,7 +63,8 @@ export function normaliseSnapshot(snapshot,{now=new Date()}={}){
   source_json_sha256:sha256(sourceByKind.get(kind).response),location_role:'Regional label location supplied by NEA via data.gov.sg; not a monitoring station',
   latitude:r.latitude,longitude:r.longitude,retrieval_method:snapshot.retrieval_method,causal_attribution:'Not established'
  });
- return {regions,observations,pm25_timestamp:pm.item.timestamp,psi_timestamp:psi.item.timestamp,captured_at:snapshot.captured_at};
+ return {regions,observations,pm25_timestamp:pm.item.timestamp,psi_timestamp:psi.item.timestamp,
+  captured_at:snapshot.captured_at,within_two_hours_at_capture:capturedMs-oldestObservationMs<=120*60000};
 }
 export async function fetchSnapshot({fetchImpl=globalThis.fetch,now=()=>new Date()}={}){
  const sources=await Promise.all(Object.entries(ENDPOINTS).map(async([kind,url])=>{

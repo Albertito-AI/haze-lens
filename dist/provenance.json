@@ -8,20 +8,20 @@
     "vendored_files": "Only portable validators and bundle helpers under vendor/gods-eye-view are reproduced. See their retained LICENSE.",
     "validation_scope": "Document, geometry, action references, bundle integrity and export/import round-trip. Full application UI and live feeds have not been run."
   },
-  "captured_at": "2026-11-15T12:49:45.465Z",
-  "retrieval_method": "Official API response JSON extracted from web retrieval output; canonicalised JSON, not original HTTP response bytes.",
+  "captured_at": "2026-11-26T08:26:55.255Z",
+  "retrieval_method": "Direct HTTPS API retrieval; response JSON parsed and canonicalised. Capture time is recorded after both requests complete.",
   "note": "Hashes identify canonicalised response JSON in data/nea-snapshot.json, not original HTTP response bytes.",
   "sources": [
     {
       "kind": "pm25",
       "url": "https://api-open.data.gov.sg/v2/real-time/api/pm25",
-      "json_sha256": "591f3107454134dacfaad37beca92a6ad5675691fef9238ec97abd0f71af19e5"
+      "json_sha256": "ff617471dedfe64a1ab5d1cfea91cb21344a9ec17e199ec38eb8814375471b21"
     },
     {
       "kind": "psi",
       "url": "https://api-open.data.gov.sg/v2/real-time/api/psi",
-      "json_sha256": "132f67e184d35835ba0b6478eee71a2d1eb83d15fdf47086de4e12f44c1bde4e"
+      "json_sha256": "a0b79e2ccf5aeda7f2229f025ac6569a28d226ccb7bbcadf93e728bf41171b84"
     }
   ],
-  "bundle_sha256": "fc03af515ec4f662b0ea527f3a5638dc8785c0f2b50ad29625542ebc9548aa72"
+  "bundle_sha256": "ef84588c92573bd95cafeef16a8d6fb3ae8a18425889aa871356f9830ed6826c"
 }

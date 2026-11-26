@@ -7,10 +7,10 @@
       "properties": {
         "name": "North",
         "location_role": "Provider regional label location, not a monitoring station",
-        "pm25_one_hourly": 12,
-        "psi_twenty_four_hourly": 38,
-        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
-        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "pm25_one_hourly": 3,
+        "psi_twenty_four_hourly": 33,
+        "pm25_timestamp": "2026-11-26T16:00:00+08:00",
+        "psi_timestamp": "2026-11-26T16:00:00+08:00",
         "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
       },
       "geometry": {
@@ -28,10 +28,10 @@
       "properties": {
         "name": "South",
         "location_role": "Provider regional label location, not a monitoring station",
-        "pm25_one_hourly": 14,
-        "psi_twenty_four_hourly": 38,
-        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
-        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "pm25_one_hourly": 10,
+        "psi_twenty_four_hourly": 26,
+        "pm25_timestamp": "2026-11-26T16:00:00+08:00",
+        "psi_timestamp": "2026-11-26T16:00:00+08:00",
         "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
       },
       "geometry": {
@@ -49,10 +49,10 @@
       "properties": {
         "name": "East",
         "location_role": "Provider regional label location, not a monitoring station",
-        "pm25_one_hourly": 11,
-        "psi_twenty_four_hourly": 40,
-        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
-        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "pm25_one_hourly": 5,
+        "psi_twenty_four_hourly": 36,
+        "pm25_timestamp": "2026-11-26T16:00:00+08:00",
+        "psi_timestamp": "2026-11-26T16:00:00+08:00",
         "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
       },
       "geometry": {
@@ -70,10 +70,10 @@
       "properties": {
         "name": "West",
         "location_role": "Provider regional label location, not a monitoring station",
-        "pm25_one_hourly": 24,
-        "psi_twenty_four_hourly": 41,
-        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
-        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "pm25_one_hourly": 5,
+        "psi_twenty_four_hourly": 24,
+        "pm25_timestamp": "2026-11-26T16:00:00+08:00",
+        "psi_timestamp": "2026-11-26T16:00:00+08:00",
         "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
       },
       "geometry": {
@@ -91,10 +91,10 @@
       "properties": {
         "name": "Central",
         "location_role": "Provider regional label location, not a monitoring station",
-        "pm25_one_hourly": 16,
-        "psi_twenty_four_hourly": 39,
-        "pm25_timestamp": "2026-11-15T20:00:00+08:00",
-        "psi_timestamp": "2026-11-15T20:00:00+08:00",
+        "pm25_one_hourly": 3,
+        "psi_twenty_four_hourly": 27,
+        "pm25_timestamp": "2026-11-26T16:00:00+08:00",
+        "psi_timestamp": "2026-11-26T16:00:00+08:00",
         "display_height_note": "Artificial 1200 metre display offset; not a measured altitude"
       },
       "geometry": {

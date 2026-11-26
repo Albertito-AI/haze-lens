@@ -29,6 +29,10 @@ const singapore=parsed.project.scenes[0];
 for(const r of data.regions){
  const card=singapore.shots.find(s=>s.id==='sg-'+r.name).interactions[0].action.text;
  assert(card.includes(r.pm25_timestamp)&&card.includes(r.psi_timestamp));
+ const expectedAge=data.within_two_hours_at_capture
+  ? 'Both observation times were within two hours of capture.'
+  : 'At least one observation was over two hours old at capture.';
+ assert(card.includes(expectedAge));
  assert(card.includes('not a continuous live feed'));
  assert(card.includes(r.pm25===null?'unavailable':r.pm25+' micrograms per cubic metre'));
  assert(card.includes(r.psi===null?'unavailable':r.psi+' (index)'));
@@ -51,6 +55,10 @@ const invalid=structuredClone(snapshot);invalid.sources[0].response.data.items[0
 assert.throws(()=>normaliseSnapshot(invalid),/timestamp with timezone/);
 const stale=normaliseSnapshot(snapshot,{now:new Date(Date.parse(data.pm25_timestamp)+3*3600000)});
 assert(stale.regions.every(r=>r.freshness==='older-than-two-hours-at-build'));
+assert.equal(stale.within_two_hours_at_capture,data.within_two_hours_at_capture);
+const delayedCapture=structuredClone(snapshot);
+delayedCapture.captured_at=new Date(Date.parse(snapshot.captured_at)+3*3600000).toISOString();
+assert.equal(normaliseSnapshot(delayedCapture).within_two_hours_at_capture,false);
 const fakeFetch=async url=>new Response(JSON.stringify(snapshot.sources.find(s=>s.url===url).response),{headers:{'content-type':'application/json'}});
 const refreshed=await fetchSnapshot({fetchImpl:fakeFetch,now:()=>new Date(snapshot.captured_at)});
 assert.equal(normaliseSnapshot(refreshed).regions[0].pm25,data.regions[0].pm25);
@@ -61,5 +69,5 @@ for(const field of ['institutional_events','legal_assessments','comparisons']) a
 const provenance=await read('./dist/provenance.json');
 assert.equal(provenance.bundle_sha256,sha256(text));
 console.log('PASS: source parsing, missing/invalid/stale data, mocked refresh success/HTTP failure, scene schema, geometry, action targets, measurement cards, hashes, semantic round-trip, tamper rejection and evidence ledger.');
-console.log('Not tested: complete globe rendering, browser clicks or direct live refresh from this runtime.');
+console.log('The offline checks use the saved capture and controlled HTTP responses.');
 

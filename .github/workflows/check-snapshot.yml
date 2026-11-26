@@ -1,0 +1,35 @@
+name: Reproduce the haze snapshot
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  reproduce:
+    runs-on: ubuntu-24.04
+    timeout-minutes: 5
+    strategy:
+      matrix:
+        node: [24, 26]
+    steps:
+      - uses: actions/checkout@3d3c42e5aac5ba805825da76410c181273ba90b1 # v7.0.1
+        with:
+          persist-credentials: false
+      - uses: actions/setup-node@249970729cb0ef3589644e2896645e5dc5ba9c38
+        with:
+          node-version: ${{ matrix.node }}
+      - name: Rebuild the saved capture and check the evidence ledger
+        run: |
+          node build.mjs
+          node check.mjs
+      - name: Compare the rebuilt files with the published bundle
+        run: |
+          if [[ -n "$(git status --porcelain --untracked-files=all -- dist/)" ]]; then
+            git status --short --untracked-files=all -- dist/
+            exit 1
+          fi
